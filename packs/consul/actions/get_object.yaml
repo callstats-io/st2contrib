@@ -1,0 +1,11 @@
+name: get_object
+runner_type: run-python
+description: "Get value as object from Consul server"
+enabled: true
+entry_point: "get_object.py"
+parameters:
+    key:
+        type: string
+        description: "Key to retrieve from Consul"
+        required: true
+        position: 0

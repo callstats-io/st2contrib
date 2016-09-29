@@ -1,0 +1,13 @@
+---
+name: "decode"
+runner_type: "python-script"
+description: "Convert string to JSON object"
+enabled: true
+entry_point: "decode.py"
+parameters:
+    jsonstr:
+        type: "string"
+        description: "Input string"
+        required: true
+        position: 0
+

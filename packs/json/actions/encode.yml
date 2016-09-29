@@ -1,0 +1,13 @@
+---
+name: "encode"
+runner_type: "python-script"
+description: "Encode object to string"
+enabled: true
+entry_point: "encode.py"
+parameters:
+    obj:
+        type: "object"
+        description: "Input objcect"
+        required: true
+        position: 0
+

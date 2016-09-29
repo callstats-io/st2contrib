@@ -1,0 +1,6 @@
+---
+name: json 
+description: Actions to encode/decode JSON
+version: 0.1.0
+author : Eljas Alakulppi
+email : eljas@callstats.io
